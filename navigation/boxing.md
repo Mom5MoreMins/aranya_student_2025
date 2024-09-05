@@ -1,39 +1,37 @@
-# The History Of Boxing
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The History of Boxing</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #002f6c; /* Dark Navy Blue */
+            color: #f0f0f0; /* Light Gray for Text */
         }
         .navbar {
-            background-color: #333;
+            background-color: #004080; /* Medium Navy Blue */
             overflow: hidden;
             display: flex;
             justify-content: center;
         }
         .navbar a {
             display: block;
-            color: #f2f2f2;
+            color: #f0f0f0; /* Light Gray for Text */
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
             font-size: 17px;
-            border-right: 1px solid #444;
+            border-right: 1px solid #0066cc; /* Bright Blue for Divider */
         }
         .navbar a:last-child {
             border-right: none;
         }
         .navbar a:hover {
-            background-color: #ddd;
-            color: black;
+            background-color: #0056b3; /* Darker Blue for Hover */
+            color: #ffffff; /* White for Text on Hover */
         }
         .container {
             max-width: 1200px;
@@ -41,19 +39,27 @@
             padding: 20px;
         }
         h1, h2, h3, h4 {
-            color: #333;
+            color: #ffcc00; /* Golden Yellow for Headings */
         }
         img {
             max-width: 100%;
             height: auto;
+            border: 3px solid #004080; /* Medium Navy Blue Border */
         }
         .content {
             margin-top: 20px;
+        }
+        p {
+            color: #d3d3d3; /* Light Gray for Paragraph Text */
+        }
+        i {
+            color: #b0b0b0; /* Slightly Darker Gray for Image Captions */
         }
     </style>
 </head>
 <body>
     <div class="navbar">
+        <a href="#the-sweet-science">The Sweet Science</a>
         <a href="#ancient-origins">Ancient Origins</a>
         <a href="#greece-and-rome">Greece and Rome</a>
         <a href="#the-birth-of-modern-boxing">The Birth of Modern Boxing</a>
@@ -63,7 +69,7 @@
         <a href="#the-future-of-boxing">The Future of Boxing</a>
     </div>
     <div class="container">
-        <h1>The History of Boxing</h1>
+        <h2 id="the-sweet-science">The Sweet Science</h2>
         <p>Boxing, often referred to as the "Sweet Science," boasts a history that spans millennia. It has evolved from a rudimentary combat sport into a sophisticated and widely celebrated global phenomenon.</p>
         
         <h2 id="ancient-origins">Ancient Origins</h2>
@@ -103,13 +109,4 @@
 
         <h5 id="mike-tyson">Mike Tyson</h5>
         <p>Mike Tyson made history as the youngest heavyweight champion at the age of 20. Known for his ferocious punching power and aggressive style, Tyson dominated the heavyweight division in the late 1980s and remains one of the most feared fighters in history.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Mike_Tyson_2016.jpg/800px-Mike_Tyson_2016.jpg" alt="Mike Tyson">
-        <p><i>Mike Tyson in 2016.</i></p>
-
-        <h5 id="floyd-mayweather-jr">Floyd Mayweather Jr.</h5>
-        <p>Floyd Mayweather Jr. is renowned for his defensive prowess and technical skill. With an undefeated record and multiple world titles across different weight classes, Mayweather is considered one of the finest boxers of all time.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Floyd_Mayweather_Jr_%2830315188201%29.jpg/800px-Floyd_Mayweather_Jr_%2830315188201%29.jpg" alt="Floyd Mayweather Jr.">
-        <p><i>Floyd Mayweather Jr. in 2013.</i></p>
-
-        <h3 id="the
-
+        <img src="https://upload.wikimedia.org/wikipedia/

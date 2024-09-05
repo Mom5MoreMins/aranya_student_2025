@@ -1,11 +1,11 @@
-title: Nighthawk Pages 
+title: Aranya's Page
 description: "Class of 2025"
 owner_name: Aranya Bhattacharya
 github_username: Mom5MoreMins
 github_repo: "aranya_student_2025" 
 baseurl: "/aranya_student_2025"
 future: true
-remote_theme: jekyll/minima
+remote_theme: pages-themes/minimal@v0.2.0
 minima:
   skin: dark
   social_links:
