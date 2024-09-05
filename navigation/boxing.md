@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,8 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #002f6c; /* Dark Navy Blue */
-            color: #f0f0f0; /* Light Gray for Text */
+            background-color: #002f6c; /* Deep Blue Background */
+            color: #e0e0e0; /* Light Gray Text */
         }
         .navbar {
             background-color: #004080; /* Medium Navy Blue */
@@ -19,19 +19,19 @@
         }
         .navbar a {
             display: block;
-            color: #f0f0f0; /* Light Gray for Text */
+            color: #e0e0e0; /* Light Gray Text */
             text-align: center;
             padding: 14px 20px;
             text-decoration: none;
             font-size: 17px;
-            border-right: 1px solid #0066cc; /* Bright Blue for Divider */
+            border-right: 1px solid #00aaff; /* Bright Sky Blue Divider */
         }
         .navbar a:last-child {
             border-right: none;
         }
         .navbar a:hover {
             background-color: #0056b3; /* Darker Blue for Hover */
-            color: #ffffff; /* White for Text on Hover */
+            color: #ffffff; /* White Text on Hover */
         }
         .container {
             max-width: 1200px;
@@ -39,7 +39,7 @@
             padding: 20px;
         }
         h1, h2, h3, h4 {
-            color: #ffcc00; /* Golden Yellow for Headings */
+            color: #ffcc00; /* Bright Golden Yellow for Headings */
         }
         img {
             max-width: 100%;
@@ -69,6 +69,8 @@
         <a href="#the-future-of-boxing">The Future of Boxing</a>
     </div>
     <div class="container">
+        <h1>Boxing</h1>
+
         <h2 id="the-sweet-science">The Sweet Science</h2>
         <p>Boxing, often referred to as the "Sweet Science," boasts a history that spans millennia. It has evolved from a rudimentary combat sport into a sophisticated and widely celebrated global phenomenon.</p>
         
@@ -109,4 +111,7 @@
 
         <h5 id="mike-tyson">Mike Tyson</h5>
         <p>Mike Tyson made history as the youngest heavyweight champion at the age of 20. Known for his ferocious punching power and aggressive style, Tyson dominated the heavyweight division in the late 1980s and remains one of the most feared fighters in history.</p>
-        <img src="https://upload.wikimedia.org/wikipedia/
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mike_Tyson_2012.jpg/800px-Mike_Tyson_2012.jpg" alt="Mike Tyson">
+        <p><i>Mike Tyson in 2012.</i></p>
+
+        <!-- Added the missing content here -->
