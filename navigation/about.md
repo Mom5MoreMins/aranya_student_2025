@@ -3,102 +3,65 @@ layout: page
 title: About
 permalink: /about/
 ---
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(135deg, #e2e2e2, #ffffff);
-            color: #333;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
+# 🌏 My Journey
 
-        .container {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 20px auto;
-            max-width: 800px;
-        }
+<div style="display: flex; justify-content: center; align-items: center; gap: 20px; padding: 20px; background-color: #f0f8ff; border-radius: 10px;">
+    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png" alt="India Flag" width="150" />
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/255px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png" alt="USA Flag" width="150" />
+    <img src="https://www.civitatis.com/blog/wp-content/uploads/2022/10/que-ver-san-diego.jpg" alt="San Diego" width="150" />
+</div>
 
-        h1 {
-            font-size: 2.5em;
-            margin-bottom: 20px;
-        }
+Born in **India** 🇮🇳, moved to **San Diego, USA** 🇺🇸 in **2012**.
 
-        p {
-            font-size: 1.2em;
-            margin: 10px 0;
-        }
+---
 
-        .images-container {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 20px;
-        }
+## 🎨 My Life
 
-        .images-container img {
-            width: 45%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+- 🏫 I went to elementary school at **Monterey Ridge Elementary School** in San Diego.
+- 🏫 I attended **Oak Valley Middle School**.
+- 🥊 I **box** and enjoy **weight lifting**.
+- 🎨 I am learning to **oil paint**.
+- 🐕 I enjoy walking my dog **Alo** every morning.
+- 📺 I like to watch **MMA** on TV.
+- 💻 I'm interested in **computers**, and I have built many of them myself.
 
-        .image-group {
-            margin-top: 20px;
-        }
+---
 
-        .image-group img {
-            width: 45%;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+## 👨‍👩‍👧‍👦 My Family
 
-        .family-pictures,
-        .dog-picture {
-            margin-top: 20px;
-        }
+- I have a dog named **Alo**, and we love going on walks every morning.
+- I have a younger sister, and we often play video games together.
+- We enjoy **camping**, watching **movies**, and playing **board games** as a family.
 
-        .family-pictures img,
-        .dog-picture img {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        }
+---
 
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>About Me</h1>
-        <p>Hi, I'm Aranya Bhattacharya. I have a younger sister named Arohi and a dog named Alo. I'm passionate about weight lifting, boxing, and coding, and I'm currently learning to oil paint.</p>
+## 📸 Family Photo Gallery
 
-        <div class="family-pictures">
-            <h2>Family Pictures</h2>
-            <img src="path/to/your/family1.jpg" alt="Family Picture 1">
-            <img src="path/to/your/family2.jpg" alt="Family Picture 2">
-        </div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; padding: 20px; background-color: #f0f8ff; border-radius: 10px;">
+    <img src="../images/aranyapic1.jpg" alt="Family Pic 1" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+    <img src="../images/aranyapic2.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+    <img src="../images/aranya4.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+    <img src="../images/aranya5.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+    <img src="../images/dogg2.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+    <img src="../images/guac.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
+</div>
 
-        <div class="dog-picture">
-            <h2>My Dog Alo</h2>
-            <img src="images/aranyapic1.jpg" alt="Picture of Alo">
-        </div>
+<p>Click on the images to open them in full size.</p>
 
-        <div class="image-group">
-            <h2>My Interests</h2>
-            <div class="images-container">
-                <img src="path/to/weight-training.jpg" alt="Weight Training">
-                <img src="path/to/oil-painting.jpg" alt="Oil Painting">
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+<!-- Modal for full-size image -->
+<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
+    <span style="position:absolute; top:10px; right:20px; color:white; font-size:30px; cursor:pointer;" onclick="closeImage()">X</span>
+    <img id="fullImage" src="" style="max-width:90%; max-height:90%; border-radius: 10px;">
+</div>
 
+<script>
+function openImage(src) {
+    document.getElementById('fullImage').src = src;
+    document.getElementById('imageModal').style.display = 'flex';
+}
+
+function closeImage() {
+    document.getElementById('imageModal').style.display = 'none';
+}
+</script>
 
