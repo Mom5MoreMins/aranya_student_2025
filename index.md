@@ -69,6 +69,7 @@ hide: false
 </head>
 <body>
     <!-- Navigation buttons -->
+    <h2> Sub Meny </h2>
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
   <div style="text-align: center;">
      <a href="notebook1" style="text-decoration: none;">
@@ -153,4 +154,11 @@ hide: false
     <a href="secretpage.html" target="_blank">
     <img src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="Mario Running" class="mario-gif">
 </a>
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
 </body>

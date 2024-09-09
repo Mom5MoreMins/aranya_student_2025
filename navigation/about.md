@@ -46,22 +46,5 @@ Born in **India** 🇮🇳, moved to **San Diego, USA** 🇺🇸 in **2012**.
     <img src="../images/guac.jpg" alt="Family Pic 2" style="width: 100%; aspect-ratio: 1/1; object-fit: cover; border-radius: 10px; box-shadow: 0px 4px 8px rgba(0,0,0,0.1);" onclick="openImage(this.src)">
 </div>
 
-<p>Click on the images to open them in full size.</p>
 
-<!-- Modal for full-size image -->
-<div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background-color:rgba(0,0,0,0.8); justify-content:center; align-items:center;">
-    <span style="position:absolute; top:10px; right:20px; color:white; font-size:30px; cursor:pointer;" onclick="closeImage()">X</span>
-    <img id="fullImage" src="" style="max-width:90%; max-height:90%; border-radius: 10px;">
-</div>
-
-<script>
-function openImage(src) {
-    document.getElementById('fullImage').src = src;
-    document.getElementById('imageModal').style.display = 'flex';
-}
-
-function closeImage() {
-    document.getElementById('imageModal').style.display = 'none';
-}
-</script>
 
