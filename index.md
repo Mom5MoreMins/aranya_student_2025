@@ -69,12 +69,34 @@ hide: false
 </head>
 <body>
     <!-- Navigation buttons -->
-    <div style="text-align: center; margin: 20px;">
-        <button onclick="window.location.href='notebook1.md'">Notebook 1</button>
-        <button onclick="window.location.href='notebook2.md'">Notebook 2</button>
-        <button onclick="window.location.href='notebook3.md'">Notebook 3</button>
-        <button onclick="window.location.href='notebook3.md'">NOT a stickbug</button>
-    </div>
+<div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+  <div style="text-align: center;">
+     <a href="notebook1" style="text-decoration: none;">
+        <button style="background-color: #4CAF50; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           notebook 1
+        </button>
+     </a>
+  </div>
+
+
+  <div style="text-align: center;">
+     <a href="notebook2" style="text-decoration: none;">
+        <button style="background-color: #2196F3; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           notebook 2
+        </button>
+     </a>
+  </div>
+
+
+  <div style="text-align: center;">
+     <a href="notebook3" style="text-decoration: none;">
+        <button style="background-color: #f44336; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           notebook 3
+        </button>
+     </a>
+  </div>
+</div>
+
 
     <!-- First Section -->
     <div class="section1">
