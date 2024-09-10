@@ -4,33 +4,49 @@ title: Project Planning
 description: plan
 hide: false
 ---
-# Project Planning
+# Basic Addition Calculator
 
-## Project Overview
+## Select two numbers to add:
 
-In this project, we will focus on creating an information site. The key requirements include:
+<form>
+  <label for="num1">Number 1:</label>
+  <select id="num1">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
 
-- Creating a submenu
-- Customizing pages
-- Tracking information related to the chosen topic
+  <label for="num2">Number 2:</label>
+  <select id="num2">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+    <option value="9">9</option>
+    <option value="10">10</option>
+  </select>
 
-## Goals
+  <button type="button" onclick="calculateSum()">Add</button>
+</form>
 
-1. **Define the Topic**: Choose a topic that interests you and fits within the requirements.
-2. **Create a Submenu**: Organize your content into manageable sections.
-3. **Customize Pages**: Design pages to effectively present your information.
-4. **Track Information**: Develop methods to track and present data related to your topic.
+<p>Result: <span id="result">0</span></p>
 
-## Milestones
-
-- **Week 1**: Topic selection and initial research.
-- **Week 2**: Create the submenu and outline the pages.
-- **Week 3**: Develop and customize the pages.
-- **Week 4**: Final review and presentation.
-
----
-
-## Resources
-
-- [GitHub Pages Documentation](https://docs.github.com/en/pages)
-- [Jekyll Documentation](https://jekyllrb.com/docs/)
+<script>
+  function calculateSum() {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+    var sum = num1 + num2;
+    document.getElementById("result").innerHTML = sum;
+  }
+</script>

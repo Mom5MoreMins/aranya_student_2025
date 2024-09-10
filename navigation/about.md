@@ -19,7 +19,7 @@ Born in **India** 🇮🇳, moved to **San Diego, USA** 🇺🇸 in **2012**.
 
 - 🏫 I went to elementary school at **Monterey Ridge Elementary School** in San Diego.
 - 🏫 I attended **Oak Valley Middle School**.
-- 🥊 I **box** and enjoy **weight lifting**.
+- 🥊 I **box** and enjoy **weight lifting**🏋️.
 - 🎨 I am learning to **oil paint**.
 - 🐕 I enjoy walking my dog **Alo** every morning.
 - 📺 I like to watch **MMA** on TV.
@@ -29,9 +29,9 @@ Born in **India** 🇮🇳, moved to **San Diego, USA** 🇺🇸 in **2012**.
 
 ## 👨‍👩‍👧‍👦 My Family
 
-- I have a dog named **Alo**, and we love going on walks every morning.
-- I have a younger sister, and we often play video games together.
-- We enjoy **camping**, watching **movies**, and playing **board games** as a family.
+-🐶 I have a dog named **Alo**, and we love going on walks every morning.
+-👨🏽‍👩🏽‍👧🏽‍👦🏽 I have a younger sister, and we often play video games together.
+-⛺ We enjoy **camping**, 🎬 watching **movies**, ♟️ and playing **board games** as a family.
 
 ---
 
