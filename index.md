@@ -69,7 +69,7 @@ hide: false
 </head>
 <body>
     <!-- Navigation buttons -->
-    <h2> Sub Menu: Mathematics and its History </h2>
+    <h2> Sub Menu: Math and its History </h2>
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
   <div style="text-align: center;">
      <a href="notebook1" style="text-decoration: none;">
@@ -115,6 +115,36 @@ hide: false
     </div>
 </body>
 </html>
+
+    <!-- Navigation buttons -->
+    <h2> Sub Menu: Games+Calculator </h2>
+<div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
+  <div style="text-align: center;">
+     <a href="cookie" style="text-decoration: none;">
+        <button styl++e="background-color: #4CAF50; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           Cookie Clicker
+        </button>
+     </a>
+  </div>
+
+
+  <div style="text-align: center;">
+     <a href="snake" style="text-decoration: none;">
+        <button style="background-color: #2196F3; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           Snake Game
+        </button>
+     </a>
+  </div>
+
+
+  <div style="text-align: center;">
+     <a href="calc" style="text-decoration: none;">
+        <button style="background-color: #f44336; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
+           Binary Calculator
+        </button>
+     </a>
+  </div>
+</div>
 
 
 
