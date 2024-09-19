@@ -72,7 +72,7 @@ hide: false
     <h2> Sub Menu: Math and its History </h2>
 <div style="display: flex; justify-content: center; gap: 20px; padding: 20px;">
   <div style="text-align: center;">
-     <a href="notebook1" style="text-decoration: none;">
+     <a href="additional_pages/notebook1" style="text-decoration: none;">
         <button style="background-color: #4CAF50; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
            Basic Addition Calculator
         </button>
@@ -81,7 +81,7 @@ hide: false
 
 
   <div style="text-align: center;">
-     <a href="notebook2" style="text-decoration: none;">
+     <a href="additional_pages/notebook2" style="text-decoration: none;">
         <button style="background-color: #2196F3; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
            Math Jokes; JS Shell
         </button>
@@ -90,7 +90,7 @@ hide: false
 
 
   <div style="text-align: center;">
-     <a href="notebook3" style="text-decoration: none;">
+     <a href="additional_pages/notebook3" style="text-decoration: none;">
         <button style="background-color: #f44336; color: white; border: none; padding: 15px 30px; font-size: 16px; border-radius: 8px; cursor: pointer;">
            Math's History
         </button>
@@ -176,9 +176,9 @@ hide: false
     Gaming Submenu
   </button>
   <div class="dropdown-content">
-    <a href="cookie">Cookie Clicker</a>
-    <a href="calc">Binary Calculator</a>
-    <a href="snake">Snake Game</a>
+    <a href="additional_pages/cookie">Cookie Clicker</a>
+    <a href="additional_pages/calc">Binary Calculator</a>
+    <a href="additional_pages/snake">Snake Game</a>
   </div>
 </div>
 
