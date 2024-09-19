@@ -1,0 +1,17 @@
+--2024-09-18 12:38:04--  http://wget/
+Resolving wget (wget)... failed: Temporary failure in name resolution.
+wget: unable to resolve host address ‘wget’
+--2024-09-18 20:27:35--  https://raw.githubusercontent.com/jm1021/john_2025/main/_notebooks/Sprint1/2024-09-15-javascript_output_objects.ipynb
+Resolving raw.githubusercontent.com (raw.githubusercontent.com)... 185.199.110.133, 185.199.109.133, 185.199.111.133, ...
+Connecting to raw.githubusercontent.com (raw.githubusercontent.com)|185.199.110.133|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 28265 (28K) [text/plain]
+Saving to: ‘2024-09-15-javascript_output_objects.ipynb’
+
+     0K .......... .......... .......                         100% 20.0M=0.001s
+
+2024-09-18 20:27:36 (20.0 MB/s) - ‘2024-09-15-javascript_output_objects.ipynb’ saved [28265/28265]
+
+FINISHED --2024-09-18 20:27:36--
+Total wall clock time: 48m 37s
+Downloaded: 1 files, 28K in 0.001s (20.0 MB/s)

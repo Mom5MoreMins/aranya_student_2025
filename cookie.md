@@ -21,11 +21,11 @@ Click the cookie to earn points! Upgrade your clicking power and buy auto-clicke
     Buy Click Upgrade (Cost: 50 cookies) — +1 cookie per click
   </button><br>
   <button id="upgradeAutoClicker" onclick="buyAutoClicker()">
-    <img src="https://img.icons8.com/ios-filled/50/000000/automation.png" alt="Auto Clicker Icon" style="width: 20px; vertical-align: middle;">
+    <img src="https://w7.pngwing.com/pngs/78/285/png-transparent-computer-mouse-pointer-cursor-computer-icons-arrow-computer-mouse-electronics-window-desktop-wallpaper.png" alt="Auto Clicker Icon" style="width: 20px; vertical-align: middle;">
     Buy Auto Clicker (Cost: 100 cookies) — Generates 1 cookie/second
   </button><br>
   <button id="upgradeGrandma" onclick="buyGrandma()">
-    <img src="https://img.icons8.com/ios-filled/50/000000/grandmother.png" alt="Grandma Icon" style="width: 20px; vertical-align: middle;">
+    <img src="https://static.thenounproject.com/png/1746307-200.png" alt="Grandma Icon" style="width: 20px; vertical-align: middle;">
     Buy Grandma (Cost: 200 cookies) — Generates 5 cookies/second
   </button><br>
   <button id="upgradeFactory" onclick="buyFactory()">
