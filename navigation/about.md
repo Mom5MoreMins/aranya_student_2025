@@ -210,4 +210,12 @@ Born in **India** 🇮🇳, moved to **San Diego, USA** 🇺🇸 in **2012**.
     document.getElementById('quizResult').innerText = 'You scored ' + score + ' out of ' + totalQuestions + '.';
   }
 </script>
-
+<body>
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
+</body>

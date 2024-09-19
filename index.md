@@ -79,6 +79,8 @@ hide: false
      </a>
   </div>
 
+  
+
 
   <div style="text-align: center;">
      <a href="additional_pages/notebook2" style="text-decoration: none;">
@@ -98,6 +100,16 @@ hide: false
   </div>
 </div>
 
+
+
+<table>
+  <tr>
+    <td><a href="{{site.baseurl}}/pythonnoteb/">Problems Notebooks</a></td>
+
+    </tr>
+</table>    
+
+<table>
 
     <!-- First Section -->
     <div class="section1">
@@ -181,6 +193,7 @@ hide: false
     <a href="additional_pages/snake">Snake Game</a>
   </div>
 </div>
+
 
 
 
