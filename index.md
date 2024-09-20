@@ -125,8 +125,7 @@ hide: false
         
         <p>Online pranks are everywhere, and two of the funniest are the Rickroll and the Elijah Wood prank interview. The Rickroll tricks people into watching a video they didn't mean to, while the Elijah Wood interview is a hilarious fake conversation. These pranks are super entertaining and always get a laugh out of me!</p>
     </div>
-</body>
-</html>
+
 
 <style>
   .dropdown {
@@ -193,10 +192,18 @@ hide: false
     <a href="additional_pages/snake">Snake Game</a>
   </div>
 </div>
+    
+<div>
+<table>
+    <tr>
+        <td><a href="{{site.baseurl}}/pythonnotebook/">Struggles</a></td>
+        <td><a href="{{site.baseurl}}/javascript/">Python Notebook</a></td>
+        <td><a href="{{site.baseurl}}/thingy/">JS Notebook</a></td>
 
+ </tr>
 
-
-
+</table>    
+</div>
 
 <!-- marioooooo -->
 <head>
