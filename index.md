@@ -200,6 +200,8 @@ hide: false
         <td><a href="{{site.baseurl}}/javascript/">Python Notebook</a></td>
         <td><a href="{{site.baseurl}}/thingy/">JS Notebook</a></td>
         <td><a href="{{site.baseurl}}/homework1/">3.1,3.4 HW</a></td>
+        <td><a href="{{site.baseurl}}/homework1/">3.3,3.5 HW</a></td>
+        <td><a href="{{site.baseurl}}/homework2/">3.6,3.7 HW</a></td>
 
  </tr>
 
