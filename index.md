@@ -202,7 +202,7 @@ hide: false
         <td><a href="{{site.baseurl}}/homework1/">3.1,3.4 HW</a></td>
         <td><a href="{{site.baseurl}}/homework1/">3.3,3.5 HW</a></td>
         <td><a href="{{site.baseurl}}/homework2/">3.6,3.7 HW</a></td>
-        <td><a href="{{site.baseurl}}/homework3/">3.6,3.7 HW</a></td>
+        <td><a href="{{site.baseurl}}/homework3/">3.8</a></td>
 
  </tr>
 
