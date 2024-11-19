@@ -66,3 +66,18 @@ I was weak on questions that had multiple right answers, as with other questions
   Correction: C, D  
   B is incorrect because 10 is the first value smaller than the first number, so it will return 10.  
   D is correct because the procedure will incorrectly return 30.
+
+
+<body>
+    <img src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="Mario Running" class="mario-gif">
+    <a href="secretpage.html" target="_blank">
+    <img src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="Mario Running" class="mario-gif">
+</a>
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+    </script>
+</body>
