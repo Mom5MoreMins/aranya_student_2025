@@ -1,137 +1,105 @@
 ---
 layout: base
-title: Journey
+title: Feature Blog
 description: What Concepts I Learned and Used
 hide: false
 ---
-# Journey
+## **Building the National Park Personality Quiz 🏞️**
 
-## Setup
+### **Planning the Quiz 📝**
+When designing the **National Park Personality Quiz**, I needed a way to **categorize user responses** and assign them to a national park based on their answers. The idea was simple:  
+- Each **question** has multiple-choice answers, each **worth a different number of points**.  
+- The **total points** determine the **best-fit national park** for the user.  
+- The **backend** would process the responses and return an **assigned national park**.  
 
-### Installing WSL and Setting up Ubuntu
-1. To install Ubuntu 24.04 for WSL (Windows Subsystem for Linux):
-   - Open PowerShell as an administrator and type:
-     ```bash
-     wsl --install -d Ubuntu-24.04
-     ```
-   - After the installation, set Ubuntu 24.04 as the default WSL distribution:
-     ```bash
-     wsl --set-default Ubuntu-24.04
-     ```
+This allowed for **efficient data management** and **scalability** in case we wanted to add more parks later!  
 
-### Cloning Repositories and Installing Necessary Tools
-1. **Cloning the portfolio repository**:
-   - In your home directory:
-     ```bash
-     cd
-     mkdir nighthawk
-     cd nighthawk
-     git clone https://github.com/nighthawkcoders/portfolio_2025.git
-     ```
-
-2. **Running setup scripts**:
-   - Navigate to the script directory and activate the Ubuntu setup script:
-     ```bash
-     cd nighthawk/portfolio_2025/scripts
-     ./activate_ubuntu.sh
-     ```
-
-### Configuring GitHub Login
-1. **Setting up GitHub credentials**:
-   - Set your GitHub email:
-     ```bash
-     git config --global user.email "youremail@gmail.com"
-     ```
-   - Set your GitHub username:
-     ```bash
-     git config --global user.name "yourGHID"
-     ```
-   - Verify the configuration:
-     ```bash
-     git config --global --list
-     ```
-
-### Setting Up Your Project Repository
-1. **Cloning the student project repository**:
-   - In the `nighthawk` directory:
-     ```bash
-     git clone https://github.com/Mom5MoreMins/aranya_student_2025.git
-     cd aranya_student_2025
-     ```
-
-2. **Preparing the project for development**:
-   - Create and activate a virtual environment:
-     ```bash
-     scripts/venv.sh
-     source venv/bin/activate
-     ```
-   - Install necessary Python packages:
-     ```bash
-     pip install -r requirements.txt
-     ```
-   - List installed Jupyter kernels to ensure Python3 is available:
-     ```bash
-     jupyter kernelspec list
-     ```
-   - Install necessary Ruby gems:
-     ```bash
-     bundle install
-     ```
-   - Open the project in VS Code:
-     ```bash
-     code .
-     ```
-
-3. **Local Server Setup**:
-   - After configuring the `make` and `_config.yml` files, use the `make` command to run a local server:
-     ```bash
-     make 
-     ```
+![Quiz Planning](./cspblog/quizplanning.png)
 
 ---
 
-## Important Commands
+### **Tracking Progress with a Burndown Menu 📊**
+To stay on track with **frontend-backend integration**, I created a **burndown menu** 🏗️ to keep track of:
 
-### Linux Command Line Basics
-- `cd` - Change directories.
-- `ls` - List files in the current directory.
-- `chmod` - Change permissions on files. For example:
-  ```bash
-  chmod 755 filename
-  ```
+This **agile approach** made sure I stayed **organized and efficient** while developing the quiz, as well as allowing my teammates to keep up with my progress!  
 
-# Important Commands
+![Burndown Menu](./cspblog/featureintegrationburndown.png)
 
-## Linux Command Line Basics
+---
 
-- **`cd`**: This command allowed me to change directories. I used it frequently to move between folders on my system.
-- **`ls`**: Using this, I could list the files and directories in my current directory, which helped me see what was inside each folder.
-- **`chmod`**: I learned how to change file permissions using `chmod`. For example, the command `chmod 755 filename` gives:
-  - `7 (rwx)`: Read, write, and execute permissions for the owner.
-  - `5 (r-x)`: Read and execute permissions for the group.
-  - `5 (r-x)`: Read and execute permissions for others.
+### **Breaking Down the Code 🖥️**
+Now, let’s talk about how this project meets **CPT requirements** using key programming concepts!
 
-## Bash Scripting and Editing Files
+#### **📌 Using a List to Manage Data**
+To store and track **quiz results**, I used a **list-like collection** in the database to handle users and their assigned parks:
+~~~python
+sample_results = [
+    {"user_id": 1, "assigned_park": "Denali National Park"},
+    {"user_id": 2, "assigned_park": "Grand Canyon National Park"}
+]
+~~~
+This stores and retrieves quiz data efficiently, meeting the requirement for **data collection management**.
 
-- I learned how to use Bash for running scripts, which allowed me to automate tasks.
-- Used `vi` to edit configuration files directly from the command line. For example, running `vi filename` opened a file for editing.
+---
 
-## Git Commands
+#### **📌 Using a Procedure with Parameters**
+A key function in the backend API is `assign_national_park()`, which takes a total score as input and returns an assigned park:
+~~~python
+def assign_national_park(self, total_points):
+    if 0 <= total_points <= 130:
+        return "Denali National Park"
+    elif 140 <= total_points <= 170:
+        return "Grand Canyon National Park"
+    elif 180 <= total_points <= 220:
+        return "Redwood National Park"
+    else:
+        return "Unknown Park"
+~~~
+- **Defines a procedure name**  
+- **Uses a parameter (`total_points`)**  
+- **Returns a value (assigned park)**  
 
-- **`git clone`**: This command allowed me to clone a repository from GitHub to my local machine.
-- **`git add`**: Staged changes to be committed.
-- **`git commit`**: Saved the staged changes with a descriptive message.
-- **`git push`**: Pushed the committed changes to my remote repository on GitHub.
+This function simplifies complexity by handling all park assignments in one place.
 
-## Package Management with `apt` and `sudo`
+---
 
-- **`apt`**: Used for installing and managing software packages. For example, `apt install` allowed me to install necessary packages.
-- **`sudo`**: Allowed me to run commands with administrative privileges, which was essential for making system-wide changes.
+#### **📌 Implementing an Algorithm with Sequencing, Selection, and Iteration**
+The quiz logic follows structured control flow using:
+- **Sequencing** (executing steps in order)
+- **Selection** (if-elif conditions to assign parks)
+- **Iteration** (looping through stored results to retrieve user data)
 
-## Takeaways and Concepts Learned
+Example:
+~~~python
+if 0 <= total_points <= 130:
+    return "Denali National Park"
+elif 140 <= total_points <= 170:
+    return "Grand Canyon National Park"
+~~~
+This ensures a clear decision-making process in the body of the procedure.
 
-Throughout this process, I learned how to effectively use the Linux command line for managing files, navigating directories, and setting permissions. I also became familiar with Git for version control, basic Bash scripting, and setting up and maintaining virtual environments for Python development.
+---
 
-Some struggles I encountered included understanding file permissions initially. The numeric system for setting permissions took some time to fully grasp. Additionally, I faced minor issues with missing dependencies when setting up the project environment, but I was able to troubleshoot those by reading error messages and installing the necessary packages.
+#### **📌 Calling a Student-Developed Procedure**
+To connect frontend and backend, the function is called when a user submits their quiz:
+~~~python
+assigned_park = self.assign_national_park(total_points)
+~~~
+This triggers the algorithm and returns the final park assignment.
 
-Overall, this setup process provided me with a solid foundation in using command-line tools and version control, as well as in managing development environments.
+---
+
+#### **📌 Instructions for Output**
+After API processing, the frontend dynamically updates the result:
+~~~javascript
+document.getElementById("result").innerText = 
+    `✅ Quiz Submitted Successfully! Total Points: ${total_points} Assigned Park: ${data.assigned_park || "Unknown"}`;
+~~~
+This meets the requirement for output instructions and ensures the user gets immediate feedback.
+
+---
+
+### **Final Thoughts 🎯**
+Developing this quiz required planning, problem-solving, and iteration to create a fully functional full-stack project. Using lists, procedures, algorithms, and output handling, I built an interactive and engaging quiz that assigns users to a national park that fits their personality.
+
+N@TM gave us great feedback, and I improved styling, UI flow, and user engagement. This project challenged me to think about user experience, data processing, and front-end/back-end interaction—valuable skills I’ll carry forward!
