@@ -1,3 +1,10 @@
+---
+layout: post 
+title: MCQ
+search_exclude: true
+permalink: /blogs/mcq
+---
+
 **What you learned from quiz?**  
 I learned from this quiz that I still have a lot to learn, but also that the quiz not only contains questions about coding, but also descriptions of things like IPs, reading graphs and tables, how to prevent things like copyright strikes, binary sequences, and things that include some cybersecurity knowledge.
 
