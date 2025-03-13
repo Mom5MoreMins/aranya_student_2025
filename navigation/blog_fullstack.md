@@ -27,27 +27,23 @@ menu: nav/blog.html
 
 ---
 
-## **1. National Parks Personality Quiz**
-![Insert Image Here](./cspblog/quizsuccess.png)
-
-The **National Parks Personality Quiz** helps users determine which national park best matches their interests. By answering a series of questions, users receive a personalized recommendation, making it an engaging and educational feature of our website.
-
-
-
-
 ## 1. National Parks Personality Quiz
 ![Insert Image Here](./cspblog/quizsuccess.png)
 
 The **National Parks Personality Quiz** helps users determine which national park best matches their interests. By answering a series of questions, users receive a personalized recommendation, making it an engaging and educational feature of our website.
 
 ## 2. Planning and Personal Contribution Video
-![Watch Planning Video](./cspblog/frostbyte_vid.mp4)
+<video width="640" height="360" controls>
+    <source src="cspblog/frostbyte_vid.mp4" type="video/mp4">
+</video>
+
 
 
 The **Planning and Personal Contribution Video** was created to establish a clear vision for our project. My role was crucial in **editing and piecing together the video** to ensure it effectively communicated our goals and team contributions.
 
 ## 3. Camping Homepage
 ![Insert Image Here](./cspblog/homepage.png)
+
 
 I developed the **Camping Homepage**, which serves as an introduction to the camping side of our website. This page features a **slideshow of national park images**, allowing users to **fullscreen images with a single click**, making it an interactive and visually appealing experience.
 
@@ -108,7 +104,6 @@ Each team member had a specific role:
 
 The event provided valuable feedback that helped us refine our project further.
 
-![N@TM Presentation](./cspblog/natm.jpg)
 
 ## My Feature Before
 
@@ -172,8 +167,6 @@ In addition to viewing these projects, I also conducted **interviews** with some
 ### **Study Buddy – A Notecard Study App**
 One project I explored was **Study Buddy**, an app designed for creating and searching through study note cards. The app was useful for students, but I noticed that there was **no way to organize the notecards by topic or category**. I shared this feedback with the team, suggesting an **organizational feature** to improve user experience.
 
-![Study Buddy](./cspblog/Studybud.JPG)
-
 ---
 
 ### **Revvit – A Social Media Site for Cars**
@@ -184,7 +177,6 @@ Another standout project was **Revvit**, a **social media platform for car enthu
 
 I really liked the site’s features, but I noticed that **many functionalities were spread across separate pages**, making navigation more complex than necessary. I suggested that the **UI be redesigned similar to Instagram**, with a **main feed containing everything** and the ability to click into specific sections from there.
 
-![Revvit](./cspblog/Reboot.jpg)
 
 ---
 
@@ -195,7 +187,6 @@ I also checked out **Aidan Lau’s educational game**, which had **engaging anim
 
 During my interview with **Aidan Lau**, I asked him about his **project's purpose**, his **biggest challenges**, and how his team tackled obstacles during development.
 
-![Aidan Lau’s Game](./cspblog/Aidanlau.jpg)  
 🎧 **Interview with Aidan Lau:**  
 🔊 [Audio File](./cspblog/Aidanluzz.mp3)
 
