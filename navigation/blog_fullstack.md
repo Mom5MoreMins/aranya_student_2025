@@ -3,6 +3,7 @@ layout: base
 title: retrospective
 permalink: /blog/api-model
 menu: nav/blog.html
+comments: true
 ---
 # Retrospective: Trimester 2
 
@@ -385,4 +386,10 @@ Looking ahead, I plan to:
 
 **Total: 9.3/10**
 
-
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>

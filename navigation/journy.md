@@ -103,3 +103,12 @@ This meets the requirement for output instructions and ensures the user gets imm
 Developing this quiz required planning, problem-solving, and iteration to create a fully functional full-stack project. Using lists, procedures, algorithms, and output handling, I built an interactive and engaging quiz that assigns users to a national park that fits their personality.
 
 N@TM gave us great feedback, and I improved styling, UI flow, and user engagement. This project challenged me to think about user experience, data processing, and front-end/back-end interaction—valuable skills I’ll carry forward!
+
+
+<script src="https://utteranc.es/client.js"
+        repo="Mom5MoreMins/aranya_student_2025"
+        issue-term="pathname"
+        theme="github-dark"
+        crossorigin="anonymous"
+        async>
+</script>
