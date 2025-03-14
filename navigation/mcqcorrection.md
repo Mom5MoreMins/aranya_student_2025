@@ -3,88 +3,138 @@ layout: post
 title: MCQ
 search_exclude: true
 permalink: /blogs/mcq
+comments: true
 ---
 
-**What you learned from quiz?**  
-I learned from this quiz that I still have a lot to learn, but also that the quiz not only contains questions about coding, but also descriptions of things like IPs, reading graphs and tables, how to prevent things like copyright strikes, binary sequences, and things that include some cybersecurity knowledge.
+## **AP CSA 2014 MCQ Review 🖥️**
 
-**What type of questions do you feel you are weak on?**  
-I was weak on questions that had multiple right answers, as with other questions I could use the process of elimination to identify questions that make the most sense, but with multiple choice the questions were more vague.
+I recently completed the **AP CSA 2014 MCQ**, **without outside help**, and scored **33/40**.  
+While I did well overall, there were a few concepts I struggled with, particularly:  
+- **Loop conditions and output prediction**  
+- **Understanding inheritance and method overriding**  
+- **Array manipulation and iteration logic**  
+- **For-each loop behavior and method calls**  
+- **Mathematical computation in loops**  
 
-**Corrections on anything you got wrong.**
+![Myscore](./cspblog/csascore.png)  
 
-- **Q1.**  
-  Which of the following best describes one of the benefits of using an iterative and incremental process of program development?  
-  My answer: A, It allows programmers to implement algorithmic solutions to otherwise unsolvable problems.  
-  Correction: D, It helps programmers identify errors as components are added to a working program.  
-  D is the correct answer because adding small segments at a time to code allows programmers to identify errors in the newer components so that they can focus on those new components.
+Here’s a breakdown of the **7 questions I got wrong**, with **detailed corrections** for each!  
 
-- **Q3.**  
-  Which of the following best compares the values displayed by programs A and B?  
-  My answer: B, Program A and program B display the same values in different orders.  
-  Correction: C, Program A and program B display the same number of values, but the values differ.  
-  C is correct, as program A lists 1-10 while program B lists 2-11.
+---
 
-- **Q5.**  
-  A user reads reviews of a popular artist’s new album and then downloads the album from the Web site of a licensed online music seller. Which of the following is LEAST likely to be a consequence of this action?  
-  My answer: B, Album reviews from other people who live nearby will be displayed to the user.  
-  Correction: D, The user will be in violation of the Digital Millennium Copyright Act (DMCA).  
-  The user downloads the music from a licensed online music seller's website, so it is unlikely that they would face a violation of the DMCA.
+### **📌 Mistake #1: Array Iteration & Conditional Printing**
+#### ❌ **My Answer:** `E (725330)`  
+#### ✅ **Correct Answer:** `B (072533)`
 
-- **Q9.**  
-  For which of the following strings is it NOT possible to use byte pair encoding to shorten the string’s length?  
-  My answer: C, "MEET_ME_LATER"  
-  Correction: B, "LEVEL_UP"  
-  Byte pair encoding cannot shorten this string because it lacks repeating character pairs.
+#### **What Went Wrong?**
+- The loop **iterates through the array** while checking if `arr[k] > arr[k+1]`.
+- When true, it prints `k` and `arr[k]`.
+- **Correct output** prints only when an element is **greater than its next neighbor**.
 
-- **Q12.**  
-  The following grid shows a robot in a square grid. Which of the following replacements for missing code can be used to move the robot to the gray square?  
-  My answer: B  
-  Correction: A  
-  The robot cannot rotate right at the beginning, so it will move forward regardless of the if statement.
+#### **Correct Approach:**
+- **Manually trace each iteration** to identify when the condition is met.
+- Always check **index boundaries** to avoid skipping key comparisons.
 
-- **Q18.**  
-  A video-streaming service uses a procedure that takes approximately 1 hour to return results for each genre. What is the total execution time of the program?  
-  My answer: A, 1 hour  
-  Correction: D, 5 hours  
-  It takes 1 hour for each of the 5 genres, resulting in 5 hours total.
+---
 
-- **Q29.**  
-  For which of the following input values will the circuit have an output of false?  
-  My answer: D  
-  Correction: A  
-  A is correct because the AND gate will output false, and the OR gates will not convert it to true.
+### **📌 Mistake #2: For-Each Loop & Method Calls**
+#### ❌ **My Answer:** `B (myVehicles[v].getMileage())`  
+#### ✅ **Correct Answer:** `E (v.getMileage())`
 
-- **Q64.**  
-  Which of the following statements describe how cloud computing has affected Internet communication?  
-  My answer: A, B  
-  Correction: B, C  
-  C is correct because cloud computing has introduced new data security concerns.
+#### **What Went Wrong?**
+- `myVehicles` is an `ArrayList<Vehicle>`, so `v` in the for-each loop **already represents a `Vehicle` instance**.
+- The method should be called **directly on `v`**, not on an indexed value.
 
-- **Q65.**  
-  A program is created to perform arithmetic operations on positive and negative integers. Under which conditions will the procedure NOT return the correct product?  
-  My answer: B, C  
-  Correction: B, D  
-  D is correct because if y is negative, then count = y will never be met.
+#### **Correct Approach:**
+- **For-each loops don’t use indexing**; they iterate over elements directly.
+- The **correct syntax** is `v.getMileage();`, not `myVehicles[v].getMileage();`.
 
-- **Q66.**  
-  For which of the following values of `theList` will Smallest(theList) NOT return the intended value?  
-  My answer: B, C  
-  Correction: C, D  
-  B is incorrect because 10 is the first value smaller than the first number, so it will return 10.  
-  D is correct because the procedure will incorrectly return 30.
+---
+
+### **📌 Mistake #3: Changing Object Attributes**
+#### ❌ **My Answer:** `C (student.getName("Tom"))`  
+#### ✅ **Correct Answer:** `D (student.setName("Tom"))`
+
+#### **What Went Wrong?**
+- `getName()` **retrieves** the value, it **does not modify it**.
+- `setName(String name)` is the **correct mutator method**.
+
+#### **Correct Approach:**
+- **Use accessor methods (`getName()`) to retrieve data**.
+- **Use mutator methods (`setName()`) to modify data**.
+
+---
+
+### **📌 Mistake #4: Inheritance & Method Overriding**
+#### ❌ **My Answer:** `D (Line 6 ambiguity issue)`  
+#### ✅ **Correct Answer:** `B (Line 4 - Book variables only call Book methods)`
+
+#### **What Went Wrong?**
+- `books[]` is declared as an **array of `Book` objects**.
+- Even though `books[0]` is an `AudioBook`, Java treats it as a **`Book` reference**.
+- You **cannot call `pagesPerMinute()`** because it is **not defined in `Book`**.
+
+#### **Correct Approach:**
+- **Objects are referenced by their declared type**.
+- **If a method is only in a subclass (`AudioBook`), you cannot call it through a `Book` reference**.
+
+---
+
+### **📌 Mistake #5: 2D Array Population**
+#### ❌ **My Answer:** `B (4)`  
+#### ✅ **Correct Answer:** `A (3)`
+
+#### **What Went Wrong?**
+- The loop fills a **3×3 2D array** column by column.
+- `newArray[0][2]` is assigned `3`, not `4`.
+
+#### **Correct Approach:**
+- **Recognize that row increments first, then resets when full**.
+- **Manually track how values are inserted** into each row.
+
+---
+
+### **📌 Mistake #6: Array Mutation in a Loop**
+#### ❌ **My Answer:** `D (734118)`  
+#### ✅ **Correct Answer:** `B (573411)`
+
+#### **What Went Wrong?**
+- `mystery()` modifies the array in **place**, not a copy.
+- Each iteration **updates the next element** based on the current sum.
+
+#### **Correct Approach:**
+- **Write out array changes step-by-step**.
+- **Remember Java arrays are passed by reference**.
+
+---
+
+### **📌 Mistake #7: Loop Multiplication Logic**
+#### ❌ **My Answer:** `D (2^k)`  
+#### ✅ **Correct Answer:** `C (n^k)`
+
+#### **What Went Wrong?**
+- The loop multiplies `answer *= n;` **`k` times**, effectively computing **n^k**.
+- I mistakenly thought it was `2^k`, but `n` isn’t always `2`.
+
+#### **Correct Approach:**
+- **Recognize that repeated multiplication is exponentiation**.
+- **Carefully analyze loop structure to identify patterns**.
+
+---
+
+### **Final Thoughts 💡**
+Overall, this was a **great learning experience**! 🚀  
+- **Loop tracing is crucial** for understanding array outputs.
+- **Inheritance rules matter** when calling subclass methods.
+- **Mathematical computations in loops** require close attention to **iteration behavior**.
+
+By **reviewing mistakes systematically**, I now have a **better understanding** of these concepts and **will improve in future practice tests**.  
 
 
-<body>
-    <img src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="Mario Running" class="mario-gif">
-    <a href="secretpage.html" target="_blank">
-    <img src="https://media.tenor.com/UkvleU1dQK4AAAAi/2d-mario-running.gif" alt="Mario Running" class="mario-gif">
-</a>
 <script src="https://utteranc.es/client.js"
         repo="Mom5MoreMins/aranya_student_2025"
         issue-term="pathname"
         theme="github-dark"
         crossorigin="anonymous"
         async>
-    </script>
-</body>
+</script>
