@@ -38,6 +38,6 @@ menu: nav/home.html
 <body>
   <a href="{{site.baseurl}}/image/" class="btn">Images</a>
   <a href="{{site.baseurl}}/color/" class="btn">Color Codes</a>
-  <a href="{{site.baseurl}}/hex/" class="btn">Hexadecimal</a>
+  <a href="{{site.baseurl}}/hex/" class="btn">Base 64</a>
 </body>
 </html>
