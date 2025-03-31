@@ -25,3 +25,28 @@ for index, row in data_cleaned.iterrows():
     else:
         print(f"{country}: {rate}%: Needs improvement")
 ```
+
+
+
+
+
+# 🍿 Digital Divide Popcorn Hack
+
+**Task:** Propose solutions to fix or reduce the digital divide in our community by leveraging existing initiatives and suggesting additional measures.
+
+**Current Efforts:**  
+Many communities are already implementing programs like free public Wi-Fi (e.g., Access 4 All Program in San Diego) and computer skill-building classes in libraries. Municipal broadband plans are also being introduced to improve connectivity in underserved areas.
+
+**Additional Solutions:**  
+1. **Subsidized Technology Programs:** Introduce grants or low-interest loans to help low-income households purchase digital devices and affordable internet plans.  
+2. **Mobile Technology Hubs:** Establish mobile units that can travel to remote or rural areas to provide temporary internet access and digital literacy workshops.  
+3. **Public-Private Partnerships:** Encourage collaborations between local governments, non-profits, and tech companies to invest in upgrading digital infrastructure and expanding broadband access.
+
+**Reflection:**  
+These solutions build on current initiatives by addressing affordability and accessibility while fostering community engagement and innovation. By combining technology access programs with mobile digital education centers, communities can ensure that everyone has the tools to participate fully in today’s digital world.
+
+
+
+
+
+
