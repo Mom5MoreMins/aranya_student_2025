@@ -60,10 +60,8 @@ I kept issues both personally and also on our shared Kanban board, where I detai
 🔗 [View My Resume](https://docs.google.com/document/d/1rjRZZRptBc26ZEOCYlAkTA7NYrlvtRhjLNShEbvu4Mk/edit?usp=sharing)
 
 ## Contact Card (+ LinkedIn Post)  
-🔗 [View My vCard]()
-
+🔗 [View My vCard](https://mom5moremins.github.io/aranya_student_2025/vcard.html)
 ---
-
 ## Certificates
 - **JavaScript Proficiency Certificate**  
 - **Responsive Web Design Certificate**  
@@ -87,5 +85,15 @@ Although I plan to pursue a data science-related field in college, ShotSpot has 
 ## Internship Relevance & Takeaways  
 I’m currently interning at **Karr Company UK**, where I’m working on building an MVP and developing a full-stack product. My experience with ShotSpot made it easier to understand and apply **Agile methodology**, which is the foundation of how the team at Karr operates.  
 
-This internship builds directly on the foundation I laid duri
+This internship builds directly on the foundation I laid duriShotSpot, and I'm able to:
+
+- Use **full-stack skills** (frontend + backend) in a real-world project  
+- Apply **AWS tools** for deployment and scalability  
+- Work within **Agile sprints** to break down and manage feature delivery  
+- Communicate and collaborate with teammates across different time zones  
+
+---
+
+## Long-Term Vision  
+My long-term goal is to work in **machine learning**, particularly in areas like **self-driving technology** and **image segmentation**. I want to build intelligent systems that interpret visual data, learn from patterns, and ultimately contribute to innovations in transportation, medical imaging, and environmental monitoring.
  
