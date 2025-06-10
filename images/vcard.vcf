@@ -1,0 +1,15 @@
+BEGIN:VCARD
+VERSION:3.0
+FN;CHARSET=UTF-8:Aranya Bhattacharya
+N;CHARSET=UTF-8:Bhattacharya;Aranya;;;
+GENDER:M
+BDAY:20080924
+EMAIL;CHARSET=UTF-8;type=HOME,INTERNET:aranya0924@gmail.com
+TEL;TYPE=CELL:858-683-4310
+TITLE;CHARSET=UTF-8:MVP Project Intern
+ROLE;CHARSET=UTF-8:Intern
+ORG;CHARSET=UTF-8:KARR Company
+URL;type=WORK;CHARSET=UTF-8:https://karrcompany.co.uk/
+X-SOCIALPROFILE;TYPE=linkedin:https://www.linkedin.com/in/aranya-bhattacharya-5b0333360/
+REV:2025-06-05T16:17:55.689Z
+END:VCARD
